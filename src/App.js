@@ -1,10 +1,10 @@
-import FullPageEx from "./FullPageEx";
+import AppRouter from "routes/Router";
 
 function App() {
   return (
-    <div>
-      <FullPageEx />
-    </div>
+    <>
+      <AppRouter />
+    </>
   );
 }
 
