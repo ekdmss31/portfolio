@@ -7,7 +7,7 @@
   left: 0;
   right: 0;
   z-index: 10;
-  background-color: black;
+  background-color: white;
 }
 .container a {
   text-decoration: none;
@@ -27,7 +27,7 @@
 }
 .title strong {
   font-size: 32px;
-  color: white;
+  color: black;
   letter-spacing: 0.5px;
 }
 .icon__list {
@@ -38,7 +38,7 @@
   padding: 4px 8px;
 }
 .icon__list li a {
-  color: black;
+  color: white;
   text-decoration: none;
 }
 .null {

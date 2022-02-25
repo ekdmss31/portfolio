@@ -1,11 +1,6 @@
 //import { Navbar, Nav, Form, FormControl, Button } from "react-bootstrap";
 //import "bootstrap/dist/css/bootstrap.min.css";
-import {
-  faDochub,
-  faTwitter,
-  faGithub,
-  faInstagram,
-} from "@fortawesome/free-brands-svg-icons";
+import { faDochub, faGithub } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import styles from "./Navigation.module.css";
 function Navigation() {
@@ -20,19 +15,19 @@ function Navigation() {
           <strong>AEUN</strong>
         </div>
         <ul className={styles.icon__list}>
-          <li>
+          {/* <li>
             <a href="https://twitter.com/?lang=ko" target="_blank">
               <FontAwesomeIcon color="#00b3ff" icon={faTwitter} />
             </a>
           </li>
           <li>
-            <a href="https://www.instagram.com/" target="_blank">
-              <FontAwesomeIcon color="#ff0073" icon={faInstagram} />
+            <a href="https://www.google.com/" target="_blank">
+              <FontAwesomeIcon color="#ff0073" icon={faGoogle} />
             </a>
-          </li>
+          </li> */}
           <li>
             <a href="https://github.com/ekdmss31" target="_blank">
-              <FontAwesomeIcon color="white" icon={faGithub} />
+              <FontAwesomeIcon color="black" icon={faGithub} />
             </a>
           </li>
         </ul>
