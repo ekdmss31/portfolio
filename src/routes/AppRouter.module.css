@@ -11,7 +11,7 @@ body {
   /* align-items: center; */
   font-size: 36px;
   background-color: white;
-  color: black;
+  color: white;
 }
 .nav button:nth-child(1) {
   display: none;
@@ -21,10 +21,12 @@ body {
   display: none;
 }
 .nav button {
-  background-color: white;
+  background-color: gray;
+  border-radius: 3px;
+  border: none;
   width: 25px;
   height: 5px;
-  margin: 0 5px;
+  margin: 0 5px 20px;
   font-size: 0px;
   cursor: pointer;
 }
@@ -37,5 +39,6 @@ body {
 }
 button:disabled {
   width: 40px;
-  background-color: gray;
+  background-color: lightgray;
+  border: none;
 }

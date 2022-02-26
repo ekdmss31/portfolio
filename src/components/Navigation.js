@@ -27,7 +27,7 @@ function Navigation() {
           </li> */}
           <li>
             <a href="https://github.com/ekdmss31" target="_blank">
-              <FontAwesomeIcon color="black" icon={faGithub} />
+              <FontAwesomeIcon color="white" icon={faGithub} />
             </a>
           </li>
         </ul>
