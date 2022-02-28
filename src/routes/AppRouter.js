@@ -4,6 +4,7 @@ import Protfolio from "components/Portfolio";
 import MovieApp from "components/MovieApp";
 import Navigation from "components/Navigation";
 import WarangEdu from "components/WarangEdu";
+import DrugApp from "components/DrugApp";
 
 function AppRouter() {
   return (
@@ -22,7 +23,9 @@ function AppRouter() {
             </div>
           </Slide>
           <Slide>
-            <div className={styles.section}>Fourth page</div>
+            <div className={styles.section}>
+              <DrugApp />
+            </div>
           </Slide>
           <Slide>
             <div className={styles.section}>

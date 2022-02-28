@@ -1,0 +1,37 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 150px;
+  margin-left: 10%;
+  margin-right: 5%;
+}
+.txt {
+  font-size: 15px;
+  align-items: flex-end;
+  margin-right: 5%;
+  width: 60%;
+  color: black;
+  font-style: italic;
+  font-weight: bold;
+}
+.img {
+  margin-top: 5%;
+  width: 90%;
+  justify-content: right;
+  /* border-radius: 20px;
+      box-shadow: 0 13px 27px -5px rgba(50, 50, 93, 0.25),
+        0 8px 16px -8px rgba(0, 0, 0, 0.3), 0 -6px 16px -6px rgba(0, 0, 0, 0.025); */
+}
+@media screen and (max-width: 1090px) {
+  /*반응형 웹페이지 만들기*/
+  .txt {
+    font-size: 10%;
+    align-items: flex-end;
+    margin-right: 5%;
+    width: 60%;
+    color: black;
+    font-style: italic;
+    font-weight: bold;
+  }
+}
