@@ -23,6 +23,11 @@
     box-shadow: 0 13px 27px -5px rgba(50, 50, 93, 0.25),
       0 8px 16px -8px rgba(0, 0, 0, 0.3), 0 -6px 16px -6px rgba(0, 0, 0, 0.025); */
 }
+.img:hover {
+  transform: rotate(-10deg);
+  width: 95%;
+}
+
 @media screen and (max-width: 1090px) {
   /*반응형 웹페이지 만들기*/
   .txt {
@@ -35,23 +40,18 @@
     font-weight: bold;
   }
 }
-/* .container {
-    position: absolute;
-    top: 20%;
-    left: 15%;
-    z-index: 100;
-    display: flex;
+/* .original_header {
+  animation: slidein 1.5s;
+}
+.change_header{
+  animation: slideout 1.5s
+}
+@keyframes slidein {
+  from {
+    margin-left: 100%;
   }
-  .txt {
-    font-size: 15px;
-    padding: 0 15% 0 5%;
-    width: 30%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    color: white;
+
+  to {
+    margin-left: 0%;
   }
-  .img {
-    width: 600px;
-    justify-content: right;
-  } */
+} */

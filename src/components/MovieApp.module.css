@@ -9,7 +9,7 @@
 .txt {
   font-size: 15px;
   align-items: flex-end;
-  margin-right: 5%;
+  margin-right: 10%;
   width: 60%;
   color: black;
   font-style: italic;
@@ -24,6 +24,20 @@
     0 8px 16px -8px rgba(0, 0, 0, 0.3), 0 -6px 16px -6px rgba(0, 0, 0, 0.025); */
 }
 
+.img:hover {
+  transform: rotate(10deg);
+  width: 105%;
+}
+
+/* @keyframes slidein {
+  from {
+    margin-left: 100%;
+  }
+
+  to {
+    margin-left: 0%;
+  }
+} */
 /* .container {
   position: absolute;
   top: 20%;

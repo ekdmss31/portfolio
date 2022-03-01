@@ -1,5 +1,9 @@
+import { useEffect, useState } from "react";
+import Fade from "react-reveal/Fade";
 import styles from "./DrugApp.module.css";
 function DrugApp() {
+  //const [show, setShow] = useState(true);
+
   return (
     <div className={styles.container}>
       <div className={styles.txt}>
@@ -19,7 +23,9 @@ function DrugApp() {
       </div>
       <div className={styles.imgContainer}>
         <a href="https://github.com/ekdmss31/DrugApp_android" target="_blank">
-          <img className={styles.img} src="img/DrugApp.png" alt="DrugApp" />
+          <Fade right>
+            <img className={styles.img} src="img/DrugApp.png" alt="DrugApp" />
+          </Fade>
         </a>
       </div>
     </div>

@@ -1,14 +1,33 @@
+import Fade from "react-reveal/Fade";
+
 import styles from "./WarangEdu.module.css";
 function WarangEdu() {
+  // const [scrollPosition, setScrollPosition] = useState(0);
+  // const updateScroll = () => {
+  //   setScrollPosition(window.scrollY || document.documentElement.scrollTop);
+  // };
+  // useEffect(() => {
+  //   window.addEventListener("scroll", updateScroll);
+  // });
   return (
     <div className={styles.container}>
       <div className={styles.imgContainer}>
         {/* <Link to="https://ekdmss31.github.io/movie_app"></Link> */}
+        {/* <div
+        className={scrollPosition < 100 ? "original_header" : "change_header"}
+      > */}
+
         <a
           href="https://github.com/ekdmss31/AR_TensorflowLite_Final"
           target="_blank"
         >
-          <img className={styles.img} src="img/WarangEdu.PNG" alt="WarangEdu" />
+          <Fade left>
+            <img
+              className={styles.img}
+              src="img/WarangEdu.PNG"
+              alt="WarangEdu"
+            ></img>
+          </Fade>
         </a>
 
         {/* <img

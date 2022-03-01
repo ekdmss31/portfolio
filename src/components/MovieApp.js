@@ -1,3 +1,4 @@
+import Fade from "react-reveal/Fade";
 import styles from "./MovieApp.module.css";
 function MovieApp() {
   return (
@@ -12,11 +13,13 @@ function MovieApp() {
       <div className={styles.imgContainer}>
         {/* <Link to="https://ekdmss31.github.io/movie_app"></Link> */}
         <a href="https://ekdmss31.github.io/movie_app" target="_blank">
-          <img
-            className={styles.img}
-            src="img/movieApp.PNG"
-            alt="movieAppImg"
-          />
+          <Fade right>
+            <img
+              className={styles.img}
+              src="img/movieApp.PNG"
+              alt="movieAppImg"
+            />
+          </Fade>
         </a>
 
         {/* <img
