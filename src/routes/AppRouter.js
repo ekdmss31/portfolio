@@ -27,11 +27,6 @@ function AppRouter() {
               <DrugApp />
             </div>
           </Slide>
-          <Slide>
-            <div className={styles.section}>
-              <Protfolio />
-            </div>
-          </Slide>
         </FullPage>
       </div>
     </>
