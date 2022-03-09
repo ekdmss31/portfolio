@@ -24,7 +24,7 @@ function WarangEdu() {
           <Fade left>
             <img
               className={styles.img}
-              src="img/WarangEdu.PNG"
+              src="img/WarangEdu.png"
               alt="WarangEdu"
             ></img>
           </Fade>

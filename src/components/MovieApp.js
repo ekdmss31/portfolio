@@ -16,7 +16,7 @@ function MovieApp() {
           <Fade right>
             <img
               className={styles.img}
-              src="img/movieApp.PNG"
+              src="img/movieApp.png"
               alt="movieAppImg"
             />
           </Fade>

@@ -1,6 +1,6 @@
 # Portfolio
 
-220222 ~
+220222 ~ 220301
 
 ## set up
 
@@ -18,3 +18,4 @@
   - npm i react-reveal --save
   - 버전이 맞지 않아 react downgrade 후 진행
   - npm install --save react@^16.14.0 react-dom@16.14.0
+- 실행 : npm run deploy
